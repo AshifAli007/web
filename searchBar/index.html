@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Shops</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+        <input type="text" class="searchText" placeholder="Search" > 
+        <button class="search btn btn-primary">Search</button>
+        <div class="advancedSearch dropdown">
+            <h3>Advanced Search</h3>
+            <select name="country" id="">
+                <option value="" selected disabled hidden>Choose Country</option>
+            </select>
+            <select name="state" id="">
+                <option value="" selected disabled hidden>Choose State</option>
+            </select>
+            <input type="number" placeholder="PinCode">
+            <select name="locality" id="">
+                <option value="" selected disabled hidden>Choose Locality</option>
+                <option value="" class="dropdown-item">Dwarka Mor</option>
+            </select>
+            <button class="advancedSearch btn btn-primary">Advanced Search</button>
+        </div>
+        <div>
+            <ul class="list-group">
+                  
+            </ul>
+        </div>
+        <div id="info">
+
+        </div>
+        <script src="./index.js"></script>
+</body>
+</html>
+
+
+
+
+
